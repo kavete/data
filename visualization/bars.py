@@ -13,8 +13,11 @@ y = np.array([3, 8, 1, 10])
 
 
 plt.subplot(1, 2, 1)
+#Horizontal bars
 plt.barh(x, y, color="cyan", height=0.5)
 
 plt.subplot(1, 2, 2)
+
+#Vertical bars
 plt.bar(x, y, width=0.3)
 plt.show()

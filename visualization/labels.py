@@ -16,6 +16,8 @@ font1= {'family': 'serif', 'color': 'blue', 'size': 20}
 font2 = {'family': 'serif', 'color': 'darkred', 'size': 10}
 
 plt.plot(x, y)
+
+#Title and labels with fonts
 plt.title("Sport's Watch data", fontdict=font1, loc='right')
 plt.xlabel("Average Pulse", fontdict=font2)
 plt.ylabel("Calorie Burnage", fontdict = font2)

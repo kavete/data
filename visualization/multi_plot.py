@@ -12,6 +12,7 @@ x= np.random.randint(100, size=(10))
 y1 = np.random.randint(100, size=(10))
 y2 = np.random.randint(100, size=(10))
 
+#Plot on the same axis
 plt.plot(x,y1, color='b')
 plt.plot(x,y2, color='y')
 plt.show()
