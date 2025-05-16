@@ -4,13 +4,17 @@ Created on Fri Apr 25 15:33:15 2025
 
 @author: brian
 """
-
+#import numpy module
 import numpy as np
 
+#declaring arrays
+#Arrays can hold one data type
 arr = np.array([1, 2, 3, 4])
 arr2 = np.array((5, 6, 7, 8))
 #arr3 = np.array({5, 8, 8, 9, 6})
 arr4 = np.array(["Bob", "Job", "Doe", "Ian", "Joe"])
+
+
 print(arr)
 print(arr2)
 print(arr4)
@@ -21,7 +25,6 @@ two_d = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 print(two_d)
 
 # 3-D
-
 three_d = np.array([[[1,2,3,4], [5, 6, 7, 8]], [[9, 10, 11, 12], [13, 14, 15, 16]]])
 print(three_d)
 
